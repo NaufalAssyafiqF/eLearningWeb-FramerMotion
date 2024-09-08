@@ -1,6 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
-  return <div className="text-3xl font-bold underline text-center">App</div>;
-}
+  return (
+    <main className="overflow-x-hidden bg-white text-dark">
+      <Navbar />
+    </main>
+  );
+};
 
-export default App
+export default App;
