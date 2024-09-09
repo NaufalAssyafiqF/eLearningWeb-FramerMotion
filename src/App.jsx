@@ -1,3 +1,4 @@
+import Banner from "./components/Banner/Banner";
 import Hero from "./components/Hero/Hero";
 import Service from "./components/ServiceSection/Service";
 
@@ -6,6 +7,7 @@ const App = () => {
     <main className="overflow-x-hidden bg-white text-dark">
       <Hero />
       <Service />
+      <Banner />
     </main>
   );
 };
